@@ -17,6 +17,7 @@
     "author": "jithesh",
     "license": "MIT",
     "dependencies": {
+        "@types/express": "github:types/express",
         "express-validator": "^7.2.0",
         "kafkajs": "^2.2.4"
     }
