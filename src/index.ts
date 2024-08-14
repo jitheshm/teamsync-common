@@ -8,6 +8,7 @@ export * from './errors/ValidationError'
 export * from './interfaces/IConsumer'
 export * from './interfaces/IKafkaConnection'
 export * from './interfaces/IProducer'
+export * from './middlewares/errorHandler'
 
 
 
