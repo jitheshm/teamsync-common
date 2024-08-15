@@ -4,7 +4,7 @@ import { FValidationError } from "../errors/ValidationError";
 import { CustomRequest } from "../interfaces/CustomRequest";
 
 
-export default (req: CustomRequest, res: Response, next: NextFunction) => {
+export const formValidation = (req: CustomRequest, res: Response, next: NextFunction) => {
     try {
 
         const result = validationResult(req);
